@@ -1,0 +1,101 @@
+name,flavor,texture,nutrition_tags,ingredients,prep_time,difficulty
+Banana Protein Muffins,Umami,Smooth,"diabetic-friendly, fiber-rich","almonds, ginger, oats, pumpkin seeds",20 min,Hard
+Spaghetti Squash Bake,Bitter,Creamy,"diabetic-friendly, anti-inflammatory","carrots, yogurt, lentils, oats",25 min,Hard
+Apple Cinnamon Oatmeal,Umami,Smooth,"low-fat, iron-rich","spinach, banana, ginger, pumpkin seeds",20 min,Hard
+Cucumber Chickpea Salad,Sweet,Creamy,"anti-inflammatory, antioxidants","pumpkin seeds, chicken, almonds, sweet potato",5 min,Easy
+Carrot Beet Juice,Bitter,Thin,"anti-inflammatory, low-sodium","oats, blueberries, brown rice, banana",25 min,Hard
+Chickpea Cauliflower Patties,Sour,Thick,"high-protein, anti-inflammatory","carrots, tofu, blueberries, turmeric",10 min,Medium
+Oven-Baked Zucchini Chips,Sour,Crunchy,"lactose-free, iron-rich","brown rice, pumpkin seeds, tofu, turmeric",5 min,Medium
+Vegetable Soup,Sweet,Soft,"hydrating, low-fat","yogurt, banana, lentils, carrots",25 min,Hard
+Tomato Basil Soup,Umami,Soft,"iron-rich, hydrating","turmeric, quinoa, lentils, almonds",15 min,Easy
+Low-Carb Egg Muffins,Bitter,Thin,"vitamin-C, hydrating","almonds, brown rice, ginger, lentils",5 min,Easy
+Oats and Banana Pancakes,Salty,Thin,"antioxidants, anti-inflammatory","pumpkin seeds, chicken, broccoli, tofu",15 min,Easy
+Sweet Potato Stew,Bitter,Thick,"gluten-free, anti-inflammatory","banana, ginger, brown rice, tofu",15 min,Hard
+Cauliflower Chickpea Curry,Salty,Smooth,"antioxidants, low-fat","lentils, broccoli, carrots, chicken",5 min,Hard
+Coconut Yogurt Bowl,Bitter,Soft,"hydrating, gluten-free","quinoa, broccoli, pumpkin seeds, spinach",10 min,Easy
+Chickpea Stir Fry,Sour,Thick,"gluten-free, fiber-rich","ginger, lentils, carrots, avocado",5 min,Hard
+Cauliflower Mash,Sweet,Creamy,"diabetic-friendly, gluten-free","chicken, pumpkin seeds, turmeric, broccoli",30 min,Hard
+Avocado Spinach Toast,Sweet,Creamy,"vitamin-C, fiber-rich","almonds, turmeric, lentils, sweet potato",20 min,Hard
+Orange Ginger Carrot Soup,Bitter,Thin,"low-fat, iron-rich","chicken, carrots, spinach, turmeric",10 min,Easy
+Roasted Cauliflower Tacos,Sour,Smooth,"vitamin-C, gluten-free","brown rice, chicken, spinach, pumpkin seeds",30 min,Medium
+Cottage Cheese Bowl,Umami,Thin,"lactose-free, diabetic-friendly","oats, banana, ginger, chicken",10 min,Easy
+Grilled Portobello Mushrooms,Sour,Thin,"hydrating, lactose-free","sweet potato, avocado, almonds, lentils",15 min,Easy
+Berry Smoothie Bowl,Bitter,Thick,"fiber-rich, hydrating","quinoa, carrots, ginger, yogurt",5 min,Hard
+Grilled Tofu with Herbs,Sweet,Soft,"gluten-free, diabetic-friendly","lentils, banana, yogurt, blueberries",20 min,Medium
+Spinach Artichoke Dip,Sweet,Crunchy,"gluten-free, low-sodium","oats, brown rice, banana, lentils",5 min,Medium
+Coconut Lentil Curry,Bitter,Thin,"iron-rich, hydrating","sweet potato, pumpkin seeds, yogurt, almonds",25 min,Medium
+Cabbage Lentil Stir Fry,Sour,Thick,"fiber-rich, high-protein","tofu, carrots, oats, sweet potato",10 min,Hard
+Spinach Tofu Curry,Umami,Crunchy,"gluten-free, high-protein","turmeric, banana, ginger, sweet potato",30 min,Easy
+Eggplant Lentil Bake,Salty,Soft,"lactose-free, low-fat","broccoli, ginger, tofu, brown rice",20 min,Hard
+Oven Roasted Beets,Umami,Smooth,"diabetic-friendly, low-sodium","quinoa, spinach, blueberries, carrots",15 min,Hard
+Lentil Veggie Patties,Salty,Crunchy,"gluten-free, vitamin-C","avocado, sweet potato, banana, blueberries",20 min,Medium
+Coconut Quinoa Porridge,Salty,Crunchy,"low-fat, low-sodium","blueberries, sweet potato, almonds, lentils",25 min,Medium
+Veggie Pasta Primavera,Sour,Thick,"low-sodium, high-protein","blueberries, spinach, oats, carrots",15 min,Easy
+Stuffed Bell Peppers,Umami,Thick,"fiber-rich, low-fat","turmeric, pumpkin seeds, brown rice, lentils",5 min,Easy
+Peanut Butter Oat Bites,Salty,Crunchy,"fiber-rich, iron-rich","pumpkin seeds, avocado, banana, chicken",25 min,Easy
+Grilled Veggie Skewers,Salty,Crunchy,"anti-inflammatory, hydrating","carrots, avocado, almonds, tofu",20 min,Medium
+Avocado Rice Paper Rolls,Sweet,Thin,"high-protein, anti-inflammatory","chicken, tofu, banana, blueberries",5 min,Easy
+Spinach Banana Smoothie,Sweet,Creamy,"low-sodium, low-fat","brown rice, oats, yogurt, lentils",25 min,Hard
+Zucchini Fritters,Sweet,Smooth,"fiber-rich, lactose-free","quinoa, brown rice, sweet potato, chicken",5 min,Easy
+Cabbage Apple Slaw,Bitter,Thick,"high-protein, iron-rich","blueberries, lentils, tofu, oats",5 min,Medium
+Garlic Sauteed Kale,Sour,Thin,"vitamin-C, iron-rich","turmeric, pumpkin seeds, broccoli, yogurt",20 min,Easy
+Cinnamon Roasted Carrots,Bitter,Smooth,"antioxidants, gluten-free","oats, broccoli, lentils, chicken",25 min,Medium
+Miso Soup with Greens,Sour,Creamy,"gluten-free, diabetic-friendly","almonds, yogurt, chicken, quinoa",10 min,Hard
+Mango Spinach Smoothie,Bitter,Crunchy,"diabetic-friendly, vitamin-C","sweet potato, carrots, almonds, blueberries",10 min,Easy
+Broccoli Almond Soup,Salty,Smooth,"antioxidants, low-fat","blueberries, yogurt, almonds, pumpkin seeds",25 min,Medium
+Chia Berry Jam,Bitter,Smooth,"lactose-free, vitamin-C","chicken, lentils, sweet potato, broccoli",25 min,Medium
+Stuffed Zucchini Boats,Bitter,Thin,"hydrating, antioxidants","almonds, ginger, oats, lentils",10 min,Hard
+Veggie Hummus Wrap,Salty,Thick,"anti-inflammatory, vitamin-C","sweet potato, oats, pumpkin seeds, yogurt",25 min,Medium
+Roasted Chickpea Snack,Salty,Thin,"fiber-rich, diabetic-friendly","sweet potato, tofu, turmeric, spinach",5 min,Medium
+Eggplant Chickpea Stew,Salty,Crunchy,"vitamin-C, lactose-free","blueberries, turmeric, ginger, carrots",10 min,Easy
+Raw Veggie Spring Rolls,Sweet,Soft,"anti-inflammatory, low-sodium","chicken, ginger, lentils, sweet potato",5 min,Easy
+Baked Turkey Meatballs,Bitter,Thin,"gluten-free, low-sodium","tofu, sweet potato, quinoa, oats",5 min,Hard
+Green Detox Smoothie,Sweet,Thick,"vitamin-C, low-fat","spinach, quinoa, sweet potato, tofu",5 min,Hard
+Kale and Apple Slaw,Sour,Smooth,"anti-inflammatory, low-sodium","broccoli, oats, tofu, avocado",30 min,Medium
+Sweet Corn Salad,Sour,Soft,"hydrating, vitamin-C","carrots, oats, turmeric, broccoli",15 min,Hard
+Mixed Berry Protein Shake,Salty,Soft,"gluten-free, low-sodium","almonds, quinoa, lentils, sweet potato",25 min,Medium
+Steamed Salmon with Veggies,Sweet,Soft,"low-fat, high-protein","lentils, ginger, quinoa, carrots",10 min,Hard
+Blueberry Overnight Oats,Sweet,Crunchy,"diabetic-friendly, anti-inflammatory","lentils, chicken, sweet potato, broccoli",10 min,Easy
+Avocado Quinoa Salad,Sweet,Soft,"fiber-rich, diabetic-friendly","quinoa, broccoli, oats, almonds",5 min,Easy
+Almond Flour Pancakes,Bitter,Crunchy,"diabetic-friendly, anti-inflammatory","spinach, banana, avocado, broccoli",30 min,Easy
+Turkey Lettuce Wraps,Umami,Thick,"diabetic-friendly, vitamin-C","ginger, lentils, pumpkin seeds, brown rice",25 min,Hard
+Zucchini Noodles,Umami,Smooth,"iron-rich, high-protein","spinach, lentils, banana, brown rice",5 min,Medium
+Lentil Quinoa Burgers,Umami,Smooth,"gluten-free, antioxidants","almonds, chicken, quinoa, banana",20 min,Medium
+Mushroom Brown Rice,Umami,Creamy,"fiber-rich, low-fat","tofu, avocado, quinoa, spinach",30 min,Hard
+Quinoa Cabbage Stir Fry,Umami,Creamy,"gluten-free, iron-rich","sweet potato, almonds, lentils, tofu",30 min,Easy
+Tomato Cucumber Avocado Salad,Sweet,Smooth,"anti-inflammatory, iron-rich","pumpkin seeds, oats, turmeric, yogurt",10 min,Medium
+Peanut Tofu Noodle Bowl,Sour,Soft,"fiber-rich, antioxidants","spinach, quinoa, oats, broccoli",10 min,Medium
+Barley Lentil Soup,Sour,Crunchy,"low-fat, anti-inflammatory","brown rice, pumpkin seeds, carrots, broccoli",25 min,Medium
+Beet Hummus Platter,Bitter,Smooth,"iron-rich, lactose-free","avocado, brown rice, carrots, blueberries",20 min,Medium
+Tofu Veggie Skewers,Umami,Creamy,"diabetic-friendly, iron-rich","banana, quinoa, brown rice, sweet potato",10 min,Hard
+Mushroom Quinoa Risotto,Umami,Soft,"diabetic-friendly, high-protein","broccoli, brown rice, banana, tofu",10 min,Medium
+Walnut Lentil Loaf,Bitter,Soft,"anti-inflammatory, diabetic-friendly","avocado, yogurt, blueberries, quinoa",15 min,Hard
+Roasted Broccoli Bowl,Bitter,Thick,"low-fat, iron-rich","chicken, turmeric, brown rice, pumpkin seeds",10 min,Hard
+Roasted Sweet Potatoes,Umami,Smooth,"high-protein, gluten-free","yogurt, tofu, broccoli, blueberries",10 min,Hard
+Bulgur Wheat Tabouli,Salty,Crunchy,"gluten-free, low-fat","spinach, chicken, yogurt, blueberries",10 min,Hard
+Herbed Chicken Breast,Salty,Soft,"gluten-free, low-sodium","sweet potato, blueberries, spinach, broccoli",30 min,Easy
+Turmeric Rice with Veggies,Bitter,Thin,"lactose-free, low-fat","spinach, broccoli, avocado, turmeric",25 min,Hard
+Almond Butter Smoothie,Sour,Smooth,"anti-inflammatory, high-protein","yogurt, quinoa, chicken, spinach",5 min,Easy
+Grilled Chicken Salad,Umami,Crunchy,"antioxidants, low-sodium","oats, ginger, spinach, pumpkin seeds",20 min,Medium
+Quinoa Spinach Pilaf,Bitter,Crunchy,"antioxidants, anti-inflammatory","spinach, turmeric, chicken, sweet potato",20 min,Easy
+Baked Tofu Nuggets,Salty,Crunchy,"fiber-rich, lactose-free","pumpkin seeds, spinach, sweet potato, quinoa",25 min,Medium
+Black Bean Burrito Bowl,Salty,Thick,"low-fat, low-sodium","carrots, ginger, tofu, brown rice",15 min,Medium
+Crispy Baked Falafel,Bitter,Crunchy,"diabetic-friendly, iron-rich","blueberries, tofu, ginger, carrots",30 min,Easy
+Quinoa Black Bean Bowl,Sweet,Creamy,"iron-rich, antioxidants","lentils, sweet potato, chicken, broccoli",15 min,Hard
+Spinach Banana Waffles,Salty,Thick,"low-sodium, iron-rich","chicken, blueberries, banana, ginger",15 min,Hard
+Lentil Shepherd's Pie,Umami,Smooth,"lactose-free, iron-rich","chicken, brown rice, avocado, lentils",5 min,Easy
+Asian Chicken Lettuce Cups,Umami,Soft,"hydrating, gluten-free","quinoa, yogurt, ginger, oats",30 min,Medium
+Tofu Scramble,Sour,Thin,"diabetic-friendly, low-sodium","chicken, broccoli, banana, blueberries",10 min,Medium
+Rainbow Veggie Sushi,Salty,Smooth,"iron-rich, vitamin-C","quinoa, pumpkin seeds, oats, almonds",30 min,Hard
+Veggie-Packed Frittata,Sour,Soft,"vitamin-C, fiber-rich","quinoa, turmeric, banana, almonds",20 min,Easy
+Sesame Cucumber Salad,Salty,Soft,"diabetic-friendly, vitamin-C","turmeric, lentils, chicken, spinach",5 min,Medium
+Zucchini Avocado Soup,Salty,Crunchy,"vitamin-C, anti-inflammatory","pumpkin seeds, carrots, turmeric, chicken",20 min,Medium
+Grilled Lemon Salmon,Sweet,Thin,"low-fat, gluten-free","yogurt, carrots, blueberries, broccoli",5 min,Medium
+Mashed Chickpea Sandwich,Sweet,Creamy,"fiber-rich, iron-rich","brown rice, blueberries, banana, oats",15 min,Medium
+Chicken Avocado Wrap,Umami,Soft,"diabetic-friendly, fiber-rich","lentils, yogurt, tofu, spinach",5 min,Hard
+Pumpkin Seed Energy Balls,Sour,Thin,"fiber-rich, iron-rich","blueberries, broccoli, banana, quinoa",15 min,Hard
+Cauliflower Fried Rice,Sour,Smooth,"low-fat, diabetic-friendly","pumpkin seeds, banana, almonds, yogurt",10 min,Easy
+Protein Chia Pancakes,Sweet,Crunchy,"anti-inflammatory, iron-rich","oats, almonds, avocado, banana",15 min,Easy
+Sweet Potato Chickpea Hash,Sweet,Creamy,"high-protein, iron-rich","chicken, pumpkin seeds, tofu, quinoa",15 min,Easy
+Carrot Ginger Soup,Bitter,Creamy,"antioxidants, iron-rich","quinoa, chicken, broccoli, ginger",15 min,Easy
+Avocado Tuna Salad,Sweet,Crunchy,"gluten-free, low-sodium","quinoa, sweet potato, almonds, yogurt",5 min,Medium

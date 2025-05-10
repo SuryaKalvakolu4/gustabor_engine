@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "projects": {
+    "gustabor-frontend": {
+      "projectType": "application",
+      "root": "src",
+      "architect": {
+        "build": { /* default config */ },
+        "serve": { /* default config */ }
+      }
+    }
+  }
+}

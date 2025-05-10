@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e03ccfa4-7154-4b9f-a18a-3ab802eb3a4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gustabor-ai.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/taste_profiles.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/backend.Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/frontend.Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/api/endpoints/explain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/api/endpoints/patients.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/api/endpoints/profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/api/endpoints/recommendations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/api/endpoints/reports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/core/gpt_explainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/core/llm_recommender.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/core/pdf_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/core/recipe_ranker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/core/taste_matcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/db/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/db/init_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/models/patient_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/models/profile_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/models/recipe_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/schemas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_backend/schemas/patient_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_frontend/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_frontend/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_frontend/src/app/components/patient-form.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_frontend/src/app/components/patient-form.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_frontend/src/app/components/recipe-explain.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_frontend/src/app/components/recipe-explain.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_frontend/src/app/components/recipe-result.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_frontend/src/app/components/recipe-result.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gustabor_frontend/src/app/services/api.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/taste_model_dev.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2wtrssrPOtwZjo5KkkomlIEl8Uk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/surya/AppData/Roaming/JetBrains/PyCharm2025.1/node/versions/22.15.0/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\surya\\AppData\\Local\\Programs\\PyCharm Professional 2025.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\surya\Downloads\gustabor-ai\data" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.122" />
+        <option value="bundled-python-sdk-880ecab49056-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.122" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e03ccfa4-7154-4b9f-a18a-3ab802eb3a4c" name="Changes" comment="" />
+      <created>1746871922943</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746871922943</updated>
+      <workItem from="1746871923921" duration="8934000" />
+      <workItem from="1746884130698" duration="1732000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

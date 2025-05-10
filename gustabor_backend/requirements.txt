@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+databases[postgresql]
+python-dotenv
+openai     # if you use GPT explanations
+psycopg2-binary
+fpdf

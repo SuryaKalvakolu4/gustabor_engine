@@ -1,0 +1,167 @@
+[
+  {
+    "patient_id": "P001",
+    "name": "Ramesh",
+    "subjective_input": {
+      "taste_preferences": [
+        "bitter",
+        "salty",
+        "sweet"
+      ],
+      "texture_likes": [
+        "creamy",
+        "soft"
+      ],
+      "dietary_restrictions": [
+        "lactose-free",
+        "low sodium"
+      ],
+      "symptoms": [
+        "loss of appetite",
+        "dry mouth"
+      ]
+    },
+    "objective_input": {
+      "sweet": 0.31,
+      "salty": 0.81,
+      "umami": 0.49,
+      "sour": 0.65,
+      "bitter": 0.73,
+      "deficits": [
+        "ageusia"
+      ]
+    }
+  },
+  {
+    "patient_id": "P002",
+    "name": "Rahul",
+    "subjective_input": {
+      "taste_preferences": [
+        "bitter",
+        "umami",
+        "sweet"
+      ],
+      "texture_likes": [
+        "thick",
+        "soft"
+      ],
+      "dietary_restrictions": [
+        "low sodium",
+        "gluten-free"
+      ],
+      "symptoms": [
+        "loss of appetite",
+        "dry mouth"
+      ]
+    },
+    "objective_input": {
+      "sweet": 0.79,
+      "salty": 0.18,
+      "umami": 0.48,
+      "sour": 0.21,
+      "bitter": 0.01,
+      "deficits": [
+        "none"
+      ]
+    }
+  },
+  {
+    "patient_id": "P003",
+    "name": "Ralf",
+    "subjective_input": {
+      "taste_preferences": [
+        "sour",
+        "salty",
+        "umami"
+      ],
+      "texture_likes": [
+        "soft",
+        "thick"
+      ],
+      "dietary_restrictions": [
+        "vegetarian",
+        "diabetic-friendly"
+      ],
+      "symptoms": [
+        "loss of appetite",
+        "dry mouth"
+      ]
+    },
+    "objective_input": {
+      "sweet": 0.86,
+      "salty": 0.99,
+      "umami": 0.47,
+      "sour": 0.9,
+      "bitter": 0.89,
+      "deficits": [
+        "ageusia"
+      ]
+    }
+  },
+  {
+    "patient_id": "P004",
+    "name": "Ratan",
+    "subjective_input": {
+      "taste_preferences": [
+        "sweet",
+        "bitter",
+        "umami"
+      ],
+      "texture_likes": [
+        "thick",
+        "creamy"
+      ],
+      "dietary_restrictions": [
+        "low sodium",
+        "diabetic-friendly"
+      ],
+      "symptoms": [
+        "metallic taste",
+        "loss of appetite"
+      ]
+    },
+    "objective_input": {
+      "sweet": 0.7,
+      "salty": 0.94,
+      "umami": 0.98,
+      "sour": 0.93,
+      "bitter": 0.34,
+      "deficits": [
+        "none"
+      ]
+    }
+  },
+  {
+    "patient_id": "P005",
+    "name": "Stern",
+    "subjective_input": {
+      "taste_preferences": [
+        "bitter",
+        "salty",
+        "umami"
+      ],
+      "texture_likes": [
+        "creamy",
+        "thick"
+      ],
+      "dietary_restrictions": [
+        "low sodium",
+        "lactose-free"
+      ],
+      "symptoms": [
+        "mouth sores",
+        "nausea"
+      ]
+    },
+    "objective_input": {
+      "sweet": 0.75,
+      "salty": 0.26,
+      "umami": 0.06,
+      "sour": 0.63,
+      "bitter": 0.87,
+      "deficits": [
+        "ageusia"
+      ]
+    }
+  }
+]
