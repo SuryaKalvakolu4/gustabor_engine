@@ -1,44 +1,38 @@
-# Stage 1: Build Angular App
+# --- FRONTEND BUILD PHASE ---
 FROM node:18-alpine AS frontend-builder
 
 WORKDIR /frontend
-COPY frontend/package*.json ./
+COPY gustabor_frontend1/package*.json ./
 RUN npm install
-COPY frontend/ .
+
+COPY gustabor_frontend1/ ./
 RUN npm run build
 
-# Stage 2: Build Backend with FastAPI
+# --- BACKEND BUILD PHASE ---
 FROM python:3.10-slim AS backend
 
 WORKDIR /app
-COPY backend/ /app/backend
-COPY backend/requirements.txt .
+COPY gustabor_backend/ /app
+COPY gustabor_backend/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Stage 3: Combine and run with supervisord
-FROM python:3.10-slim
+# --- FINAL IMAGE ---
+FROM nginx:alpine
 
-# Install nginx and supervisor
-RUN apt-get update && \
-    apt-get install -y nginx supervisor && \
-    rm -rf /var/lib/apt/lists/*
+# Copy frontend
+COPY --from=frontend-builder /frontend/dist/gustabor_frontend1/browser /usr/share/nginx/html
 
-WORKDIR /app
-
-# Copy backend and requirements
+# Copy backend
 COPY --from=backend /app /app
 
-# Copy Angular built files to NGINX
-COPY --from=frontend-builder /frontend/dist/gustabor_frontend1/browser /var/www/frontend
-
 # Copy NGINX config
-COPY frontend/nginx.conf /etc/nginx/conf.d/default.conf
+COPY gustabor_frontend1/nginx.conf /etc/nginx/conf.d/default.conf
 
-# Configure Supervisor
-COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+# Copy Supervisor to run both frontend (nginx) and backend (uvicorn)
+COPY supervisor.conf /etc/supervisor/conf.d/supervisor.conf
 
-# Expose ports
-EXPOSE 80 8000
+# Install supervisor and Python for backend
+RUN apk add --no-cache bash supervisor python3 py3-pip
 
-# Run both NGINX and Uvicorn
-CMD ["supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
+EXPOSE 80
+CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisor.conf"]
