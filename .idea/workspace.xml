@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e03ccfa4-7154-4b9f-a18a-3ab802eb3a4c" name="Changes" comment="tastecare_ai ready for deployment">
+      <change afterPath="$PROJECT_DIR$/supervisor.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supervisord.conf" beforeDir="false" afterPath="$PROJECT_DIR$/supervisord.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +98,7 @@
       <workItem from="1746871923921" duration="8934000" />
       <workItem from="1746884130698" duration="8430000" />
       <workItem from="1746898021608" duration="5102000" />
-      <workItem from="1746903195979" duration="23701000" />
+      <workItem from="1746903195979" duration="23789000" />
     </task>
     <task id="LOCAL-00001" summary="tastecare_ai">
       <option name="closed" value="true" />
@@ -181,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746967155700</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="tastecare_ai ready for deployment">
+      <option name="closed" value="true" />
+      <created>1746967635689</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1746967635689</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
