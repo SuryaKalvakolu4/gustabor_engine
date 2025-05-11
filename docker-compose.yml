@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  backend:
+    container_name: gustabor-backend
+    build:
+      context: ./gustabor_backend
+    command: uvicorn main:app --host 0.0.0.0 --port 8000
+    volumes:
+      - ./gustabor_backend:/app
+    ports:
+      - "8000:8000"
+    networks:
+      - gustabor-net
+    env_file:
+      - .env
+
+  frontend:
+    container_name: gustabor-frontend
+    build:
+      context: ./gustabor_frontend1
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"         # 👈 exposes Nginx on http://localhost/
+    depends_on:
+      - backend
+    networks:
+      - gustabor-net
+    # Optional: map custom nginx config if needed
+    # volumes:
+    #   - ./gustabor_frontend1/nginx.conf:/etc/nginx/conf.d/default.conf
+
+networks:
+  gustabor-net:
+    driver: bridge

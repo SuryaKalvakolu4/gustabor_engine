@@ -1,0 +1,54 @@
+<div class="form-container">
+  <h2>Add Patient</h2>
+
+  <form [formGroup]="patientForm" (ngSubmit)="onSubmit()">
+    <label>Patient ID:</label>
+    <input formControlName="patient_id" />
+
+    <label>Patient Name:</label>
+    <input formControlName="name" />
+
+    <label>Taste Preferences:</label>
+    <div *ngFor="let taste of tasteOptions">
+      <input type="checkbox" [value]="taste" (change)="onCheckboxChange($event, 'taste_preferences')" />
+      {{ taste }}
+    </div>
+
+    <label>Texture Likes:</label>
+    <div *ngFor="let texture of textureOptions">
+      <input type="checkbox" [value]="texture" (change)="onCheckboxChange($event, 'texture_likes')" />
+      {{ texture }}
+    </div>
+
+    <label>Dietary Restrictions:</label>
+    <input formControlName="dietary_restrictions" />
+
+    <label>Symptoms:</label>
+    <div *ngFor="let symptom of symptomOptions">
+      <input type="checkbox" [value]="symptom" (change)="onCheckboxChange($event, 'symptoms')" />
+      {{ symptom }}
+    </div>
+
+    <fieldset formGroupName="sensory_scores">
+      <legend>Sensory Detection Scores (1–10)</legend>
+      <label>Sweet:</label>
+      <input formControlName="sweet" type="number" min="1" max="10" />
+      <label>Salty:</label>
+      <input formControlName="salty" type="number" min="1" max="10" />
+      <label>Bitter:</label>
+      <input formControlName="bitter" type="number" min="1" max="10" />
+      <label>Umami:</label>
+      <input formControlName="umami" type="number" min="1" max="10" />
+      <label>Sour:</label>
+      <input formControlName="sour" type="number" min="1" max="10" />
+    </fieldset>
+
+    <label>Known Deficits:</label>
+    <input formControlName="known_deficits" />
+
+    <button type="submit" [disabled]="patientForm.invalid">Submit</button>
+  </form>
+
+  <p class="success" *ngIf="successMessage">{{ successMessage }}</p>
+  <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+</div>

@@ -1,37 +1,56 @@
-import openai
 import os
-from models.recipe_model import Recipe
-from models.patient_model import Patient
+import openai
+from dotenv import load_dotenv
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+# Load environment variables from .env file
+load_dotenv()
 
-def generate_recommendations(patient: Patient, recipes: list[Recipe]) -> list[str]:
-    recipe_descriptions = "\n".join([
-        f"- {r.name}: flavor={r.flavor}, texture={r.texture}, tags={r.nutrition_tags}, ingredients={r.ingredients}, prep_time={r.prep_time}, difficulty={r.difficulty}"
-        for r in recipes
-    ])
+# Fetch the API key from the environment
+api_key = os.getenv("OPENAI_API_KEY")
 
-    prompt = f"""
-You are an AI medical nutrition assistant for cancer patients with taste disorders.
-Your job is to recommend 5 personalized recipes from the list below.
+# Setup OpenAI client
+client = openai.OpenAI()
 
-Patient ID: {patient.patient_id}
-Name: {patient.name}
-Subjective Input (taste preferences, texture likes, restrictions, symptoms):
-{patient.subjective_input}
 
-Objective Taste Test Results (taste scores, known deficits):
-{patient.objective_input}
+def generate_recommendations(patient, recipes):
+    # Convert Pydantic models to plain dicts if needed
+    subjective = patient.subjective_input if isinstance(patient.subjective_input, dict) else patient.subjective_input.dict()
+    objective = patient.objective_input if isinstance(patient.objective_input, dict) else patient.objective_input.dict()
 
-Here is a list of recipes:
-{recipe_descriptions}
-
-Choose 5 that best match the patient's profile. For each, explain why it's a good fit based on their taste perception, dietary needs, and health profile.
-"""
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=[{"role": "user", "content": prompt}],
-        max_tokens=700
+    # Define system role
+    system_prompt = (
+        "You are a clinical nutrition assistant for oncology patients. "
+        "Your task is to recommend 5 healthy recipes personalized to a patient with taste disorders during chemotherapy. "
+        "Be mindful of their dietary restrictions, texture preferences, and known taste deficits. "
+        "Avoid ingredients or suggestions that could worsen their symptoms or conflict with restrictions."
     )
 
-    return response.choices[0].message.content.strip().split('\n')
+    # Build dynamic user prompt
+    user_prompt = f"""
+Patient Information:
+- Name: {patient.name}
+- Taste Preferences: {', '.join(subjective['taste_preferences'])}
+- Texture Likes: {', '.join(subjective['texture_likes'])}
+- Dietary Restrictions: {', '.join(subjective['dietary_restrictions'])}
+- Symptoms: {', '.join(subjective['symptoms'])}
+- Known Taste Deficits: {', '.join(objective['deficits'])}
+
+Available Healthy Recipes:
+{', '.join([r.name for r in recipes])}
+
+Suggest 5 personalized recipe ideas (can be modified versions of the above), with a one-line justification for each.
+"""
+
+    # Call OpenAI
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ],
+        temperature=0.7
+    )
+
+    # Parse and return LLM response
+    reply = response.choices[0].message.content.strip()
+    return reply.split("\n")

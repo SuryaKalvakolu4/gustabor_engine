@@ -1,8 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-# ✅ Updated imports (drop "gustabor_backend." prefix)
-from api.endpoints import patients, recommendations, reports
+from api.endpoints import patients, recommendations, reports, chat  # ✅ Added chat
 from db.database import Base, engine
 
 # Create database tables
@@ -14,10 +13,10 @@ app = FastAPI(
     version="1.0.0",
 )
 
-# Enable CORS if frontend will be separate
+# Enable CORS (you can restrict this in production)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # change this in production
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -27,6 +26,7 @@ app.add_middleware(
 app.include_router(patients.router, prefix="/patients", tags=["Patients"])
 app.include_router(recommendations.router, prefix="/recommendations", tags=["Recommendations"])
 app.include_router(reports.router, prefix="/reports", tags=["Reports"])
+app.include_router(chat.router, prefix="/chat", tags=["Chat"])  # ✅ Newly added
 
 # Health check
 @app.get("/")

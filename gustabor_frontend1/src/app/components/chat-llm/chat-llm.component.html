@@ -1,0 +1,21 @@
+<div class="chat-container">
+  <h2>Chat with LLM</h2>
+
+  <label>Patient ID:</label>
+  <input [(ngModel)]="patientId" placeholder="Enter patient ID" />
+
+  <label>Your Question:</label>
+  <textarea [(ngModel)]="question" rows="4" placeholder="Ask about food suggestions..."></textarea>
+
+  <button (click)="onSubmit()" [disabled]="!patientId || !question || loading">Ask</button>
+
+  <div *ngIf="loading">Processing your question...</div>
+
+  <div *ngIf="responseText" class="response">
+    <h4>LLM Suggestions:</h4>
+    <p>{{ responseText }}</p>
+    <button (click)="onDownload()">Download PDF Report</button>
+  </div>
+
+  <div class="error" *ngIf="errorMessage">{{ errorMessage }}</div>
+</div>
